@@ -1,1 +1,1 @@
-npm install -g bower && npm install -g grunt-cli && bower install && grunt serve
+npm install -g bower && npm install grunt && npm install -g grunt-cli && bower install && grunt serve
