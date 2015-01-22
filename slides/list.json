@@ -6,5 +6,7 @@
     "problem-background.md",
     "javascript-to-the-rescue.md",
     "javascript-ex1.md",
-    "javascript-ex2.md"
+    "javascript-ex2.md",
+    "anaymous-callbacks.md",
+    "event-loop.md"
 ]
