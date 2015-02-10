@@ -1,0 +1,65 @@
+1) describe the HTTP protocol (or I could do it in an earlier lecture) and show node.js's part for this NODE SO EASY AND SHORT
+- node http library
+- allows you to create a server and handle requests
+- super simple example:    
+```
+var http = require('http');
+var requestHandler = function (request, response) {
+  response.writeHead(200, {'Content-Type': 'text/plain'});
+  response.end('Hello CSE 333\n');
+}
+http.createServer(requestHandler).listen(1337, '127.0.0.1');
+```
+- can handle all kinds of requests, GET, POST etc via 'request' object thats passed to the handler
+- plenty of 'modules' that make this less of a pain
+- so simple!!
+
+1.5) outline of nodejs
+- v8 engine that compile/interprets js
+- high performance http parser (in C)
+- bridge between high performance parts to v8 (via v8 apis)
+- nodejs eventloop
+
+2) describe v8, and show how node.js connects c++ code with javascript
+https://www.youtube.com/watch?v=hWhMKalEicY
+- v8 is an open source javascript engine developed at google for google chrome
+- compiles javascript to machine code and then optimizes at runtime
+- node uses v8 to interpret javascript
+- libuv??
+- ...
+- maybe some assembly, compare performance, benchmarks
+- 
+
+3) describe how node.js's networking part works---event-driven single-threaded loop
+- nodejs is single threaded, only one thing can be executing at a time
+- works off the event queue, tasks get queued and are dequeued as they can be worked on 
+    by the thread
+- node uses this to it's advantage, and assumes your server is going to be I/O bound,
+    not CPU bound
+- while your server is taking millions of cycles reading a file from disk, node will
+    take that time to do other things off the event queue. When it finishes reading,
+    it will be enqueued, and node will get around to handling that file eventually
+- dont do cpu heavy tasks in node
+
+
+4) javascript part, callback-based scheme
+- http://vimeo.com/111122950 around 5:30
+- file read from earlier, what to do with it?
+- when we tell fs to read a file, we also give with it a callback
+- when the file is finished being read and it's dequeued, callback is fired, telling
+    node what to do with the file.
+- Everything in node (should) be asynchronous (use callbacks) to take full advantage of the event loop
+- trickier to reason about than single threaded linear execution, but much easier than
+    multithreaded!
+```
+fs.readFile(function (data) {
+  data.split(" ")
+})
+```
+takeaways 
+- Everything in node (should) be asynchronous (use callbacks) to take full advantage of the event loop
+- trickier to reason about than single threaded linear execution, but much easier than
+    multithreaded!
+- only takes advantage of a single cpu
+
+recap
