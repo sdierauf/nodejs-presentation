@@ -10,9 +10,11 @@ var requestHandler = function (request, response) {
 }
 http.createServer(requestHandler).listen(1337, '127.0.0.1');
 ```
+- important background stuff about node
 - can handle all kinds of requests, GET, POST etc via 'request' object thats passed to the handler
 - plenty of 'modules' that make this less of a pain
 - so simple!!
+
 
 1.5) outline of nodejs
 - v8 engine that compile/interprets js
@@ -41,6 +43,7 @@ https://www.youtube.com/watch?v=hWhMKalEicY
     it will be enqueued, and node will get around to handling that file eventually
 - dont do cpu heavy tasks in node
 
+s
 
 4) javascript part, callback-based scheme
 - http://vimeo.com/111122950 around 5:30

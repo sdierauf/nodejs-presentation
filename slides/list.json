@@ -2,11 +2,8 @@
     "nodejs.md",
     "who-is-this-kid.md",
     "outline.md",
-    "what-even-is-node.md",
-    "problem-background.md",
-    "javascript-to-the-rescue.md",
-    "javascript-ex1.md",
-    "javascript-ex2.md",
-    "anaymous-callbacks.md",
-    "event-loop.md"
+    "why-node-is-awesome.md",
+    "why-node-is-awesome-pt-2.md",
+    "who-uses-node.md",
+    "how-is-node-put-together.md"
 ]

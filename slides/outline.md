@@ -1,9 +1,7 @@
 ##  Outline
 
-1. What even *is* node?
-	* What even ***is*** javascript??
-2. Awesome stuff about node
-3. Disadvantages of node
-4. Who uses nodejs in production?
-5. Live demo D:
-	* *mandatory participation*
+1. Why node is awesome
+2. Nodejs architecture overview
+3. V8, c++, and optimizing oh my
+4. Why javascript? (aka all glory to the event loop)
+5. Recap + takeaways
