@@ -2,8 +2,19 @@
     "nodejs.md",
     "who-is-this-kid.md",
     "outline.md",
+    "what-is-node.md",
+    "the-problem.md",
+    "the-solution.md",
     "why-node-is-awesome.md",
     "why-node-is-awesome-pt-2.md",
     "who-uses-node.md",
-    "how-is-node-put-together.md"
+    "how-is-node-put-together.md",
+    "google-v8.md",
+    "syscall-overhead.md",
+    "v8-benchmarks.md",
+    "pure-c-modules.md",
+    "outline-pt2.md",
+    "the-javascript-part.md",
+    "what-is-a-callback.md",
+    "event-loop.md"
 ]

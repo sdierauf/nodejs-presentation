@@ -1,7 +1,6 @@
 ##  Why node is awesome
 
 ```javascript
-// simple-server.js
 var http = require('http');
 
 function requestHandler(request, response) {
