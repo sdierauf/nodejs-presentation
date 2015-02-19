@@ -10,3 +10,4 @@ database.query("kittens", function (data) {
 
 // do other servery things
 ```
+*we'll explore callbacks and javascript language features later*

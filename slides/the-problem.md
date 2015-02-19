@@ -3,7 +3,7 @@
 * Servers have to handle lots of requests
 * majority of I/O is disk bound
 
-```
+```javascript
 var result = database.query("kittens");
 // twaddle fingers
 send(result);

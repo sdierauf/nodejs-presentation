@@ -16,5 +16,9 @@
     "outline-pt2.md",
     "the-javascript-part.md",
     "what-is-a-callback.md",
-    "event-loop.md"
+    "event-loop.md",
+    "simple-server-example.md",
+    "popular-modules.md",
+    "other-crazy-things-you-can-do.md",
+    "takeaways.md"
 ]
