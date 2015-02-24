@@ -1,9 +1,19 @@
 ##  Pure C modules
 
-Most of node's components are written in javascript, 
-but a few high performance ones are written in pure C
-and then connect into v8 via v8 APIs
+Nodejs has a few components written in C for performance
+<div style="text-align:left">
+<dl>
+  <dt><b>Http parser:</b></dt>
+  <dd>https://github.com/joyent/node/tree/master/deps/http_parser</dd>
+  <br>
+  <dt><b>libuv, platform independent async I/O:</b></dt>
+  <dd>https://github.com/libuv/libuv</dd>
+</dl>
+</div>
+<br>
 
-* https://github.com/joyent/node/tree/master/deps/http_parser
-* networking?
-'''''''''''check with xi
+*freaking awesome logo btw* 
+
+<img src="https://raw.githubusercontent.com/libuv/libuv/master/img/banner.png" width="400px">
+
+

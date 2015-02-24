@@ -5,7 +5,7 @@
 
 ```javascript
 var result = database.query("kittens");
-// twaddle fingers
+// finger twaddling
 send(result);
 ```
 

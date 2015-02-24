@@ -10,16 +10,18 @@
     "who-uses-node.md",
     "how-is-node-put-together.md",
     "google-v8.md",
-    "syscall-overhead.md",
     "v8-benchmarks.md",
+    "syscall-overhead.md",
     "pure-c-modules.md",
     "outline-pt2.md",
-    "the-javascript-part.md",
+    "why-javascript-totally-rules.md",
+    "javascript-overview.md",
     "what-is-a-callback.md",
+    "the-javascript-part.md",
     "event-loop.md",
     "simple-server-example.md",
     "popular-modules.md",
     "other-crazy-things-you-can-do.md",
     "takeaways.md",
-    "simple-chat-server.md"
+    "simple-chat-server.md"   
 ]

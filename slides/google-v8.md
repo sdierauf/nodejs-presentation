@@ -2,5 +2,5 @@
 
 * Google's open source javascript engine
 * Used by google chrome
-* Compiles javascript to machine code JIT
 * Exists as a standalone engine
+* Compiles javascript to machine code JIT

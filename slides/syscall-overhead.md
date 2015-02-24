@@ -1,9 +1,7 @@
 ##  Syscall overhead
 
-Hello world in C, node, and Java
+Hello world in C, v8, java and node
 
-| Language | Syscall Count |
-|----------|---------------|
-| C        | 13            |
-| Java     | 317           |
-| Node     | 491           |
+<img src="files/syscall_graph.png" width="600px">
+
+*Remember that v8 and node both include a compilation step!*
