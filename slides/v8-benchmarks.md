@@ -6,7 +6,6 @@ Calculate first 25,000 primes
 <a href="files/timeprimes.sh">timeprimes.sh</a>
 
 ```
-Zeus:files sdierauf$ sh timeprimes.sh
 c++:
 287107
 real  0m1.593s

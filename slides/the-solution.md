@@ -9,6 +9,6 @@ database.query("kittens", function (data) {
 });
 
 // do other servery things
-skynet.init().spawn({"model": "T-1000"});
+skynet.spawn({"model": "T-1000"});
 ```
 *we'll explore callbacks and javascript language features later*
