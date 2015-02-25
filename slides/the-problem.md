@@ -1,7 +1,8 @@
 ##  The Problem
 
-* Servers have to handle lots of requests
-* majority of I/O is disk bound
+Servers have to handle lots of requests.
+
+What happens when the server has to do something like this?
 
 ```javascript
 var result = database.query("kittens");
@@ -9,6 +10,4 @@ var result = database.query("kittens");
 send(result);
 ```
 
-Apache makes a new thread per request,
-<br>
-but uses hella memory
+*The database query is blocking the thread from continuing!*
