@@ -14,3 +14,5 @@ for (var i = 0; i < divs.length; i++) {
   divs[i].style.backgroundImage = "url('http://nodejs-slides.stfn.me/files/kitten.jpg')";
 }
 ```
+
+***But now it does so much more!***
