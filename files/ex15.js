@@ -5,14 +5,10 @@ var host = process.argv[2];
 var port = process.argv[3];
 var filename = process.argv[4];
 
-var client = new net.Socket();
-client.connect(port, host, function() {
+var socket = new net.Socket();
+socket.connect(port, host, function() {
   fs.readFile(filename, function (error, data) {
-    if (error) {
-      console.log(error);
-      process.exit(1);
-    }
-    client.write(data);
+    socket.write(data);
     process.exit();
   });
 });
