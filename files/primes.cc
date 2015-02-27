@@ -16,8 +16,8 @@ class Primes {
   }
 
  private:
-  volatile int prime_count;
-  volatile int primes[25000];
+  int prime_count;
+  int primes[25000];
 };
 
 int main() {
